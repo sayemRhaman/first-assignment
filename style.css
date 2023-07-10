@@ -5,10 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 header{
-    width: 1820px;
+    width: 100vw;
     height: 100vh;
     background: rgba(229, 84, 115, 0.10);
-}
+ }
 .banner{
     display: flex;
     justify-content: space-between;
@@ -21,7 +21,7 @@ header{
     color:#272727;
     
 }
-.banner-descrip{
+.descrip{
     font-size: 20px;
     color:#27272799;
     margin-top: 32px;
@@ -40,3 +40,109 @@ header{
     width:600px;
     padding: 50px 0 0 0;
   }
+
+/*------------main section------------*/
+
+.feature{
+    margin-top: 80px;
+}
+.feature-bar{
+    text-align: center;
+}
+.title{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    padding: 10px 200px;
+    gap: 24px;
+}
+
+.features-item-one{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 20px 20px 0 20px;
+    width: 380px;
+    height: 450px;
+}
+
+.features-item-tow{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding-left: 40px;
+    width: 380px;
+    height: 470px;
+}
+
+.features-item-three{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15); 
+    padding: 20px 20px 0 20px;
+    width: 380px;
+    height: 450px;
+}
+
+.ancor{
+    display: flex;
+    text-align: center;
+    padding: 10px 200px;
+    justify-content: space-around;
+}
+.ancor a{
+    color:#272727;
+    font-size: 20px;
+}
+
+.rectungul-box{
+    margin-top: 80px;
+}
+.rectungule{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    
+    margin:10px 200px;
+    
+}
+.sub-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 120px 45px;
+}
+.sub-box div{
+    text-align: center;
+}
+.para{
+    margin-top: 20px;
+    color:#272727;
+}
+.hot{
+    margin-top: 80px;
+    background: rgba(229, 84, 115, 0.10);
+}
+.hot-deal{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 200px;
+    align-items: center;
+}
+.right-bar{
+    width: 450px;
+
+}
+.praimery{
+  color:#E55473;
+}
+.insta{
+ margin-top: 80px;
+}
+.instagram{
+ text-align: center;
+}
+.img-box{
+    display: flex;
+    justify-content: center;
+    gap:15px;
+}
