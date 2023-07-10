@@ -144,5 +144,39 @@ header{
 .img-box{
     display: flex;
     justify-content: center;
+    padding: 10px 200px;
     gap:15px;
+}
+.img-box img{
+    width: 320px;
+}
+
+.subscribe{
+    margin-top: 80px;
+}
+.subs{
+    width: 77%;
+    height: 400px;
+    background-image: url('./Flower Asset/Rectangle 9.png') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 20px auto;
+}
+.latest{
+    padding:80px 20px 20px;
+    text-align: center;
+}
+.input-group{
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.input-group input{
+  background-color: #fffafa;
+  padding: 15px 100px;
+  font-size: 20px;
+  color:#272727;
+  border: none;
+  border-radius: 5px;
 }
