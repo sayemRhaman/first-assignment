@@ -40,7 +40,7 @@ header{
     color:#Fff;
 }
 .banner-img{
-    width:400px;
+    width:500px;
     padding: 50px 0 0 0;
   }
   
@@ -91,10 +91,11 @@ header{
 }
 
 .ancor{
+    width: 70%;
     display: flex;
-    text-align: center;
-    padding: 10px 200px;
     justify-content: space-around;
+    margin: 10px auto;
+    gap:40px;
 }
 .ancor a{
     color:#272727;
@@ -159,6 +160,64 @@ header{
     width: 300px;
 }
 
+/*------------------contact----------------------*/
+.contact{
+    margin-top: 80px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.text-contact{
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px;
+}
+.contact-dics{
+    background: rgba(229, 84, 115, 0.10);
+    padding: 25px 10px;
+    margin-bottom: 25px;
+}
+.contact-title{
+   padding-left: 20px;
+   font-size: 25px;
+   
+}
+form{
+    margin-top:25px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 800px;
+}
+
+.input-dev p{
+    font-size: 20px;
+    font-weight: 500px;
+}
+input{
+  background-color: #fffafa;
+  padding: 15px 100px;
+  font-size: 20px;
+  color:#272727;
+  border: none;
+  border-radius: 5px;
+}
+.input-dev{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.submit{
+    width: 150px;
+    height: 50px;
+}
+.submit-button{
+    display: flex;
+    justify-content:flex-end;
+}
+
+
 .subscribe{
     margin-top: 80px;
 }
@@ -189,6 +248,8 @@ header{
   border-radius: 5px;
 }
 
+/*------------footer-------------*/
+
 footer{
     margin-top: 80px;
     background-color: #111010;
@@ -201,50 +262,6 @@ footer{
 .foot{
     text-align: center;
 }
-.contact{
-    background: rgba(229, 84, 115, 0.10);
-}
 
-.text-contact{
-    width: 80%;
-    margin: 0 auto;
-    padding: 60px;
-}
-.contact-dics{
-    background: rgba(229, 84, 115, 0.10);
-    padding: 25px 10px;
-    margin-bottom: 25px;
-}
-.contact-title{
-   padding-left: 20px;
-   font-size: 25px;
-   
-}
-form{
-    margin-top: 25px;
-    display: flex;
-    flex-direction: column;
-    gap:10px;
-    width: 800px;
-}
-
-.input-dev p{
-    font-size: 20px;
-    font-weight: 500px;
-}
-input{
-  background-color: #fffafa;
-  padding: 15px 100px;
-  font-size: 20px;
-  color:#272727;
-  border: none;
-  border-radius: 5px;
-}
-.input-dev{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    justify-content: space-between;
-}
 
 
