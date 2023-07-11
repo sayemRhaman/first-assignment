@@ -16,11 +16,13 @@ header{
     align-items: center;
     padding: 0 200px;
 }
+.banner-title{
+    width: 500px;
+}
 .banner-title h1{
     font-size: 45px;
     font-weight: 700;
     color:#272727;
-    width:550px;
 }
 .descrip{
     font-size: 18px;
@@ -41,6 +43,7 @@ header{
     width:400px;
     padding: 50px 0 0 0;
   }
+  
 
 /*------------main section------------*/
 
